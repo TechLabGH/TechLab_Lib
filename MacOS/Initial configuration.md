@@ -182,7 +182,7 @@ https://www.anaconda.com/download
 
 https://tug.org/mactex/
 
-22 VisualStudio Code extensions:
+22. VisualStudio Code extensions:
 
 - PlatformIO
 - LaTeX-Workshop
@@ -192,3 +192,22 @@ https://tug.org/mactex/
 - Pretier
 - Pylance
 - Python
+
+23. Serial 2
+
+This is highly recommended terminal app to work with UART-USB dongles
+
+https://www.decisivetactics.com/
+
+24. Opera
+
+>```brew install --cask opera```
+
+25. Folx - torrent client
+
+https://www.mac-downloader.com/
+
+26. LibreOffice
+
+https://www.libreoffice.org/download/download-libreoffice/
+
