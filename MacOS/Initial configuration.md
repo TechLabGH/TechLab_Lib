@@ -158,3 +158,37 @@ Menu ***Misc*** - uncheck [ ] Check for updates on startup
 
 >```brew install --cask sublime-text```
 
+18. Visual Studio Code
+
+>```brew install --cask visual-studio-code```
+
+19. Python
+
+Download installer from main website
+
+https://www.python.org/downloads/
+
+install PIP:
+
+>```curl https://bootstrap.pypa.io/get-pip.py > get-pip.py```
+
+>```sudo python get-pip.py```
+
+20 Anaconda
+
+https://www.anaconda.com/download
+
+21. LaTex
+
+https://tug.org/mactex/
+
+22 VisualStudio Code extensions:
+
+- PlatformIO
+- LaTeX-Workshop
+- C/C++
+- CodeRunner
+- IntelliCode
+- Pretier
+- Pylance
+- Python
