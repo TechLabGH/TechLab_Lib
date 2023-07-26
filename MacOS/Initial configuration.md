@@ -241,7 +241,14 @@ this will install:
   - AVRDude			-> /Users/**user**/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin
   - AVRDude config file -> /Users/**user**/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf
 
-9. CubicSDR
+29. CubicSDR
 
 >```brew install cubicsdr```
 
+30. Docker
+
+Last release working on MacOS Catalina is 4.15.0.\
+It can be downloaded from ```https://desktop.docker.com/mac/main/amd64/93002/Docker.dmg?_gl=1*1ajkt*_ga*MTI4MjkwNjY3OS4xNjkwMzg4MTM5*_ga_XJWPQMJYHQ*MTY5MDM4ODEzOS4xLjEuMTY5MDM4ODIzNi40Ni4wLjA.```
+
+
+...
