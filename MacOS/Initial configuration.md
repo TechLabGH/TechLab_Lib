@@ -211,3 +211,33 @@ https://www.mac-downloader.com/
 
 https://www.libreoffice.org/download/download-libreoffice/
 
+27. GIMP
+
+https://www.gimp.org/downloads/
+
+28. AVR development 
+
+* install Arduino IDE 2.x - https://www.arduino.cc/en/software and run\
+create blank project for any standard arduino board - software will offer to install AVR Boards Core - accept it\
+this will install: 
+  - AVR-GCC
+  - avrdude
+  
+* Install ***Eclipse IDE for C/C++ Developers*** https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-06/R/eclipse-cpp-2023-06-R-macosx-cocoa-x86_64.dmg
+
+* Install ***Darkest Dark Theme with DevStyle*** - it adds few nice functions ex. better workspace 
+
+* Install ***AVR Eclipse Plugin***
+
+* Make some adjustments if Eclipse will be used only for AVR development:
+  - LAUNCHBAR - disable
+  - SPELLING - disable
+  - AUTO SAVE - enable ***Save Automatically before manual build***
+
+* Set ***paths*** in AVR Plugin:
+  - AVR-GCC			-> /Users/**user**/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin
+  - GNU make 	 	-> \usr\bin
+  - AVR Header Files 	-> /Users/**user**/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include
+  - AVRDude			-> /Users/**user**/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin
+  - AVRDude config file -> /Users/**user**/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf
+
