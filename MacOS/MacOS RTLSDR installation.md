@@ -25,23 +25,17 @@ https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Mac
 * upgrade packages in your environment to their latest available versions\
   ```% conda upgrade --all```
 
-7. #### Running GNU Radio
-```% conda activate gnuradio``` <- to activate environment (if not done)\
-```% gnuradio-companion```
-
-8. #### Installing related software
+7. #### Installing related software
 ```% conda install rtl-sdr```\
 ```% conda install soapysdr-module-hackrf```\
-```% conda install -c```  
-```% conda-forge \soapysdr-module-rtlsdr``` <- external source
+```% conda install gnuradio-osmosdr```\
+```% conda install -conda-forge \soapysdr-module-rtlsdr``` <- external source
+
+8. #### Running GNU Radio
+```% conda activate gnuradio``` <- to activate environment (if not done)\
+```% gnuradio-companion``` <- give full rights to ~/.cache folder
 
 ---
 
-```% brew install glew```\
-```% brew install glfw```\
-```% brew install libff```\
-```% brew install FFTW```\
-```% brew install volk```
-
-https://github.com/AlexandreRouma/SDRPlusPlus/releases/tag/1.0.4
+Steps caan be done in ANACONDA.NAVIGATOR - add https://conda.anaconda.org/conda-forge/ channel.
 
