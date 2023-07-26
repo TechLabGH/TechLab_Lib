@@ -241,3 +241,7 @@ this will install:
   - AVRDude			-> /Users/**user**/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin
   - AVRDude config file -> /Users/**user**/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf
 
+9. CubicSDR
+
+>```brew install cubicsdr```
+
