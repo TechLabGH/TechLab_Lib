@@ -139,6 +139,22 @@ https://karabiner-elements.pqrs.org/
 
 Make sure to select correct version based on MacOS
 
-Security & Privacy -> Privacy -> Input Monitoring:
-[X] Karabiner_grabber
+Security & Privacy -> General:\
+Allow - System software froim application...
+
+Security & Privacy -> Privacy -> Input Monitoring:\
+[X] Karabiner_grabber\
 [X] Karabiner_observer
+
+Set:
+- left_control <-> left_command
+- left_command <-> left_control
+- right_command <-> right option
+- right option <-> right_command
+
+Menu ***Misc*** - uncheck [ ] Check for updates on startup
+
+17. Sublime Text
+
+>```brew install --cask sublime-text```
+
