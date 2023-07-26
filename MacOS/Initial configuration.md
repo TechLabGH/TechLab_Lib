@@ -44,11 +44,11 @@
 
 10. Install HomeBrew\
 
-> ```$ sudo xcode-select --install```\
+> ```$ sudo xcode-select --install```
 
-> ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```\
+> ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
 
->```echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile```\
+>```echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile```
 ---
 #### HomeBrew
 
@@ -107,6 +107,10 @@ To uninstall a formula you can run:
 >```brew tap homebrew/cask-fonts```\
 >```brew install --cask font-source-code-pro```
 
+Preferences -> Profiles -> Text - set ***Source Code Pro*** font; size 13; blinking cursor\
+Preferences -> Profiles -> Window - set transparency and blur\
+Preferences -> Profiles -> Colors - set colors
+
 12. tree
 
 >```brew install tree```
@@ -117,4 +121,24 @@ To uninstall a formula you can run:
 >```git config --global user.name "Your Name Here"```\
 >```git config --global user.email "your_email@youremail.com"```
 
+14. MidnightCommander
 
+>```brew install mc```
+
+15. Bash Completion
+
+>```brew install bash-completion```
+
+>```echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile```
+
+>```source ~/.bash_profile```
+
+16. Karabiner Elements
+
+https://karabiner-elements.pqrs.org/
+
+Make sure to select correct version based on MacOS
+
+Security & Privacy -> Privacy -> Input Monitoring:
+[X] Karabiner_grabber
+[X] Karabiner_observer
